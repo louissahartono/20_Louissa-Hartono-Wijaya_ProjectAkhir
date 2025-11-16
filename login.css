@@ -1,0 +1,95 @@
+header {
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 50px; 
+}
+nav a {
+    color: gray; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-left: 20px;
+}
+nav a:hover{
+    color: black;
+}
+body {
+    background-color: #E3F2FD; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 100vh;
+}
+form {
+    margin-top: 50px;
+    background: white; 
+    padding: 40px;
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    width: 300px;
+    text-align: center;
+}
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+form input:focus {
+    border-color: #386470; 
+    outline: none;
+}
+form button[type="submit"] {
+    background-color: #FFC0CB; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+form button[type="submit"]:hover {
+    background-color: #FF99AA;
+}
+body > p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px; 
+}
+body > p a {
+    color: #386470; 
+    text-decoration: none;
+    font-weight: bold;
+}
+body > p a:hover {
+    text-decoration: underline;
+}
+.login-container {
+    margin-top: 150px; 
+    margin-bottom: auto; 
+}
+
+footer {
+    background-color: transparent; 
+    padding: 20px 0; 
+    width: 100%;
+    text-align: center;
+}
+.copyright {
+    font-size: 14px; 
+    color: #4a6d8c; 
+    font-weight: 500;
+}

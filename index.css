@@ -1,0 +1,77 @@
+header {
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 50px; 
+}
+nav a {
+    color: gray; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-left: 20px;
+}
+nav a:hover{
+    color: black;
+}
+.gambar h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    text-align: center; 
+}
+.donuts {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    margin-top: 30px;
+}
+.donuts img {
+    width: 350px; 
+    height: auto;
+}
+footer {
+    background-color: #E3F2FD; 
+    padding: 40px 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin: 0 auto;
+    max-width: 1200px; 
+    text-align: left; 
+}
+.footer-info .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #386470;
+    width: 20%; 
+    min-width: 150px;
+}
+.contact-details {
+    width: 30%; 
+    min-width: 200px;
+}
+.contact-details p {
+    color: #555;
+    margin: 5px 0;
+    font-size: 14px;
+}
+.footer-info img {
+    width: 45%; 
+    max-width: 500px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    display: block; 
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}

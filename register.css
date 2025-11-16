@@ -1,0 +1,118 @@
+header {
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 50px; 
+}
+nav a {
+    color: gray; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-left: 20px;
+}
+nav a:hover{
+    color: black;
+}
+body {
+    background-color: #E3F2FD; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+}
+form {
+    background: white; 
+    padding: 30px 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    width: 400px; 
+    text-align: center;
+    margin-top: 20px;
+}
+form h2 {
+    color: #386470; 
+    margin-bottom: 25px;
+}
+form table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse; 
+}
+form table td {
+    padding: 8px 0;
+    text-align: left; 
+    vertical-align: top;
+}
+form table label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    padding-top: 10px;
+}
+form input[type="text"],
+form input[type="date"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+form input:focus {
+    border-color: #386470; 
+    outline: none;
+}
+form button[name="register"] {
+    background-color: #FFC0CB; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+form button[name="register"]:hover {
+    background-color: #FF99AA; 
+}
+body > p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px; 
+    text-align: center;
+}
+body > p a {
+    color: #386470; 
+    text-decoration: none;
+    font-weight: bold;
+}
+body > p a:hover {
+    text-decoration: underline;
+}
+.register-container {
+    margin-top: 150px; 
+    margin-bottom: auto; 
+}
+footer {
+    background-color: transparent; 
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.copyright {
+    font-size: 14px; 
+    color: #4a6d8c; 
+    font-weight: 500;
+}

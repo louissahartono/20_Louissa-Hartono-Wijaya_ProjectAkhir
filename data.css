@@ -1,0 +1,79 @@
+header {
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 50px; 
+}
+nav a {
+    color: gray; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-left: 20px;
+}
+nav a:hover{
+    color: black;
+}
+
+body{
+    background-color: #E3F2FD;
+}
+.table-tugasakhir {
+    border: none;
+    background-color: #E3F2FD; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    padding: 30px; 
+    width: 90%; 
+    max-width: 1100px; 
+    border-collapse: collapse;
+}
+.table-tugasakhir th,
+.table-tugasakhir td {
+    border: 1px solid #e0e0e0; 
+    padding: 12px 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+.table-tugasakhir th {
+    background-color: #f8f8f8; 
+    font-weight: bold;
+    color: #4a6d8c; 
+    text-transform: uppercase;
+}
+.table-tugasakhir tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+.table-tugasakhir td a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap; 
+}
+.table-tugasakhir td a[href^="update.php"] {
+    background-color: #ff99aa; 
+    color: white;
+    border: 1px solid #ff99aa;
+}
+.table-tugasakhir td a[href^="delete.php"] {
+    background-color: #ff99aa; 
+    color: white;
+    border: 1px solid #ff99aa;
+}
+footer {
+    background-color: transparent; 
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.copyright {
+    font-size: 14px; 
+    color: #4a6d8c; 
+    font-weight: 500;
+}
